@@ -110,6 +110,7 @@ int main(int argc, char* argv[])
 		 0.5f, -0.5f, 0.0f
 	};
 
+
 	//init vertex array object
 	unsigned int VAO;
 	glGenVertexArrays(1, &VAO);
