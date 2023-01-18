@@ -72,8 +72,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>.\includes;D:\StuDying\Projects\6-OpenGL\MyOpenGLProjects\includes;$(IncludePath)</IncludePath>
-    <LibraryPath>.\libs;D:\StuDying\Projects\6-OpenGL\MyOpenGLProjects\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\StuDying\Projects\6-OpenGL\MyOpenGLProjects\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\StuDying\Projects\6-OpenGL\MyOpenGLProjects\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
